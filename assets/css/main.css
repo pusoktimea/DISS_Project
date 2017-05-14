@@ -674,6 +674,11 @@
 		.icon > .label {
 			display: none;
 		}
+/* Audio */
+
+	.audio-pad-75 {
+		padding-top: 75px;
+	}
 
 /* Image */
 
@@ -1026,6 +1031,11 @@
 			margin: 0 auto;
 		}
 
+		#preview .inner-lg {
+			max-width: 70em;
+			margin: 0 auto;
+		}
+
 		#preview .image {
 			margin: 0;
 		}
@@ -1096,6 +1106,10 @@
 				max-width: 55em;
 			}
 
+			#preview .inner-lg {
+				max-width: 70em;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1120,7 +1134,19 @@
 				}
 
 		}
+/* Random */
 
+	.mg-top-150 {
+		margin-top: 150px;
+	}
+
+	.pad-top-50 {
+		padding-top: 50px;
+	}
+
+	.check-answer:hover {
+		border: solid 5px green;
+	}
 /* Section/Article */
 
 	section.special, article.special {
@@ -1571,4 +1597,25 @@
 					padding: 1em;
 				}
 
+		}
+
+		.riddlePageImage {
+			 width: 150px;
+			 height: 120px;
+		}
+
+		.riddleContent{
+			margin:auto;
+		}
+		.riddleText{
+		text-align: center;
+		font-size: 35px;
+		line-height: 40px;
+		font-weight:bold;
+		color: #328BB1;
+		}
+
+ 		.answer{
+			width:200px;
+			height:200px;
 		}
