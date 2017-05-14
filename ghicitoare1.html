@@ -10,6 +10,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+		.riddleContent {
+		    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+		}
+		</style>
+
 	</head>
 	<body>
 
@@ -22,23 +29,36 @@
 
 		<!-- Main -->
 			<div id="preview">
-				<div class="inner">
-					<div class="image fit">
-						<img src="images/1.png" alt="" />
-					</div>
-					<div class="content">
-						<header>
-							<h2>Aliquam gravida felis vel velit accumsan</h2>
-						</header>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est ligula, ultrices id posuere vitae, rutrum in tellus. Suspendisse vitae aliquam metus. Cras blandit, tortor ut eleifend porttitor, urna lacus porttitor arcu, quis vestibulum metus dolor ut neque. Aenean et nisi venenatis, mollis enim eget, pharetra nunc. Sed blandit non mi nec ultrices. Vestibulum hendrerit tortor id gravida eleifend. Morbi vitae molestie odio. Etiam nec est vel sapien posuere vulputate eget eget mi. Quisque vulputate ligula velit, id accumsan dui fringilla nec. Morbi nisi mauris, placerat sit amet feugiat nec, vehicula ut ex.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est ligula, ultrices id posuere vitae, rutrum in tellus. Suspendisse vitae aliquam metus. Cras blandit, tortor ut eleifend porttitor, urna lacus porttitor arcu, quis vestibulum metus dolor ut neque. Aenean et nisi venenatis, mollis enim eget, pharetra nunc. Sed blandit non mi nec ultrices. Vestibulum hendrerit tortor id gravida eleifend. Morbi vitae molestie odio. Etiam nec est vel sapien posuere vulputate eget eget mi. Quisque vulputate ligula velit, id accumsan dui fringilla nec. Morbi nisi mauris, placerat sit amet feugiat nec, vehicula ut ex.</p>
-					</div>
-				</div>
-				<a href="index.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
-				<a href="ghicitoare2.html" class="nav next"><span class="fa fa-chevron-right"></span></a>
-			</div
+				<img class="riddlePageImage" src="images/1a.png" alt="" />
 
-		<!-- Scripts -->
+				<div class="inner">
+
+					<div class="riddleContent">
+	                        <p class=riddleText >
+														Are-o coadă înfoiată, <br>
+														Hoaţă este şi şireată <br>
+														Dar e vai de coada ei <br>
+														Când dă peste ea Grivei.
+	                        </p>
+					</div>
+						<div class="answer wrong" >
+							<audio autoplay="autoplay" controls="controls" preload="none">
+  							<source src="dog.mp3" type="audio/mpeg">
+							</audio>
+						</div>
+						<div class="answer correct">
+							<img src="answears/fox.png" alt="fox" /></a>
+						</div>
+						<div class="answer wrong">
+							<img src="answears/rabbit.gif" alt="fox" /></a>
+
+						</div>
+
+				</div>
+			</div>
+
+
+		<!-- Scripts
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>

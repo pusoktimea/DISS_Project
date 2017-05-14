@@ -1572,3 +1572,24 @@
 				}
 
 		}
+
+		.riddlePageImage {
+			 width: 150px;
+			 height: 120px;
+		}
+
+		.riddleContent{
+			margin:auto;
+		}
+		.riddleText{
+		align-items: center;
+		font-size: 22px;
+		font-weight:bold;
+		font-style: oblique;
+		color: #328BB1;
+		}
+
+ 		.answer{
+			width:200px;
+			height:200px;
+		}
