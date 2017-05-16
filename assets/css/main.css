@@ -1144,8 +1144,12 @@
 		padding-top: 50px;
 	}
 
-	.check-answer:hover {
-		border: solid 5px green;
+	.check-answer {
+		text-align: center;
+	}
+
+	.check-answer i:hover {
+		color: green;
 	}
 /* Section/Article */
 
