@@ -46,6 +46,7 @@
 
 				var t 		= jQuery(this),
 					button 	= t.find('.button');
+					button 	= t.find('.welc_image');
 
 				button.click(function(e) {
 
@@ -71,6 +72,22 @@
 				button.click(function(e) {
 					t.toggleClass('show');
 					e.preventDefault();
+				});
+
+			});
+
+			$(document).ready(function() {
+				var audioElement = document.createElement('audio');
+				audioElement.setAttribute('src', 'answers/dog.mp3');
+
+				$('#play').click(function() {
+					audioElement.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pause').click(function() {
+					audioElement.pause();
+					$("#status").text("Status: Paused");
 				});
 
 			});
