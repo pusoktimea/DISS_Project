@@ -362,6 +362,11 @@
 			color: #e74c3c;
 		}
 
+		.button.start {
+			background: #009900;
+			color: #FFF;
+		}
+
 		input[type="submit"].fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
@@ -1324,7 +1329,7 @@
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #e74c3c;
+			background: #DADDEA;
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
@@ -1622,4 +1627,18 @@
  		.answer{
 			width:200px;
 			height:200px;
+		}
+
+		.resize {
+		    width: 70px;
+		    height: auto;
+		}
+
+		.circle {
+			width: 80px;
+			height: 80px;
+			background: #82AE67;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
 		}
