@@ -91,6 +91,7 @@
 					$("#status").text("Status: Paused");
 				});
 
+				$("#playT1").get(0).play();
 				//Text2
 				var audioElementT2 = document.createElement('audio');
 				audioElementT2.setAttribute('src', 'audioText/t2.mp3');
@@ -259,7 +260,7 @@
 				$('#pause6').click(function() {
 					audioElement6.pause();
 					$("#status").text("Status: Paused");
-				});				
+				});
 
 				//Bee
 				var audioElement7 = document.createElement('audio');
