@@ -77,16 +77,216 @@
 			});
 
 			$(document).ready(function() {
-				var audioElement = document.createElement('audio');
-				audioElement.setAttribute('src', 'answers/dog.mp3');
+				//Text1
+				var audioElementT1 = document.createElement('audio');
+				audioElementT1.setAttribute('src', 'audioText/t1.mp3');
 
-				$('#play').click(function() {
-					audioElement.play();
+				$('#playT1').click(function() {
+					audioElementT1.play();
 					$("#status").text("Status: Playing");
 				});
 
-				$('#pause').click(function() {
-					audioElement.pause();
+				$('#pauseT1').click(function() {
+					audioElementT1.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text2
+				var audioElementT2 = document.createElement('audio');
+				audioElementT2.setAttribute('src', 'audioText/t2.mp3');
+
+				$('#playT2').click(function() {
+					audioElementT2.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT2').click(function() {
+					audioElementT2.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text3
+				var audioElementT3 = document.createElement('audio');
+				audioElementT3.setAttribute('src', 'audioText/t3.mp3');
+
+				$('#playT3').click(function() {
+					audioElementT3.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT3').click(function() {
+					audioElementT3.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text4
+				var audioElementT4 = document.createElement('audio');
+				audioElementT4.setAttribute('src', 'audioText/t4.mp3');
+
+				$('#playT4').click(function() {
+					audioElementT4.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT4').click(function() {
+					audioElementT4.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text5
+				var audioElementT5 = document.createElement('audio');
+				audioElementT5.setAttribute('src', 'audioText/t5.mp3');
+
+				$('#playT5').click(function() {
+					audioElementT5.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT5').click(function() {
+					audioElementT5.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text6
+				var audioElementT6 = document.createElement('audio');
+				audioElementT6.setAttribute('src', 'audioText/t6.mp3');
+
+				$('#playT6').click(function() {
+					audioElementT6.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT6').click(function() {
+					audioElementT6.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text7
+				var audioElementT7 = document.createElement('audio');
+				audioElementT7.setAttribute('src', 'audioText/t7.mp3');
+
+				$('#playT7').click(function() {
+					audioElementT7.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT7').click(function() {
+					audioElementT7.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text8
+				var audioElementT8 = document.createElement('audio');
+				audioElementT8.setAttribute('src', 'audioText/t8.mp3');
+
+				$('#playT8').click(function() {
+					audioElementT8.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT8').click(function() {
+					audioElementT8.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text9
+				var audioElementT9 = document.createElement('audio');
+				audioElementT9.setAttribute('src', 'audioText/t9.mp3');
+
+				$('#playT9').click(function() {
+					audioElementT9.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT9').click(function() {
+					audioElementT9.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Text10
+				var audioElementT10 = document.createElement('audio');
+				audioElementT10.setAttribute('src', 'audioText/t10.mp3');
+
+				$('#playT10').click(function() {
+					audioElementT10.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pauseT10').click(function() {
+					audioElementT10.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//---------------------------------------------------
+
+				//Dog
+				var audioElement1 = document.createElement('audio');
+				audioElement1.setAttribute('src', 'answers/dog.mp3');
+
+				$('#play1').click(function() {
+					audioElement1.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pause1').click(function() {
+					audioElement1.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Crow
+				var audioElement4 = document.createElement('audio');
+				audioElement4.setAttribute('src', 'answers/crow.mp3');
+
+				$('#play4').click(function() {
+					audioElement4.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pause4').click(function() {
+					audioElement4.pause();
+					$("#status").text("Status: Paused");
+				});
+
+				//Cat
+				var audioElement6 = document.createElement('audio');
+				audioElement6.setAttribute('src', 'answers/cat.mp3');
+
+				$('#play6').click(function() {
+					audioElement6.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pause6').click(function() {
+					audioElement6.pause();
+					$("#status").text("Status: Paused");
+				});				
+
+				//Bee
+				var audioElement7 = document.createElement('audio');
+				audioElement7.setAttribute('src', 'answers/bee.mp3');
+
+				$('#play7').click(function() {
+					audioElement7.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pause7').click(function() {
+					audioElement7.pause();
+					$("#status").text("Status: Paused");
+				});
+
+
+				//Cry
+				var audioElement9 = document.createElement('audio');
+				audioElement9.setAttribute('src', 'answers/cry.mp3');
+
+				$('#play9').click(function() {
+					audioElement9.play();
+					$("#status").text("Status: Playing");
+				});
+
+				$('#pause9').click(function() {
+					audioElement9.pause();
 					$("#status").text("Status: Paused");
 				});
 
