@@ -91,7 +91,6 @@
 					$("#status").text("Status: Paused");
 				});
 
-				$("#playT1").get(0).play();
 				//Text2
 				var audioElementT2 = document.createElement('audio');
 				audioElementT2.setAttribute('src', 'audioText/t2.mp3');
@@ -290,6 +289,34 @@
 					audioElement9.pause();
 					$("#status").text("Status: Paused");
 				});
+
+				// --------
+
+				//Answer checker
+				var audioElementCheck1 = document.createElement('audio');
+				audioElementCheck1.setAttribute('src', 'audioText/correctAnswer.mp3');
+
+				$('#checker_correct').click(function() {
+					audioElementCheck1.play();
+					$("#status").text("Status: Playing");
+				});
+
+				var audioElementCheck2 = document.createElement('audio');
+				audioElementCheck2.setAttribute('src', 'audioText/wrongAnswer.mp3');
+
+				$('#checker_wrong1').click(function() {
+					audioElementCheck2.play();
+					$("#status").text("Status: Playing");
+				});
+
+				var audioElementCheck3 = document.createElement('audio');
+				audioElementCheck3.setAttribute('src', 'audioText/wrongAnswer.mp3');
+
+				$('#checker_wrong2').click(function() {
+					audioElementCheck3.play();
+					$("#status").text("Status: Playing");
+				});
+
 
 			});
 
